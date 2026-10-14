@@ -1,0 +1,24 @@
+# Тимчасові файли Office
+~$*
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Webots
+*.wbproj
+
+# Системне
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ⚠️ Відео не комітимо в git — файли завеликі.
+# Кладіть на OneDrive/Google Drive і давайте посилання
+# у README відповідної роботи.
+*.mp4
+*.mov
+*.avi
