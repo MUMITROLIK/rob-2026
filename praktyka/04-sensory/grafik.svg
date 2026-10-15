@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="440" viewBox="0 0 780 440" font-family="Arial, sans-serif">
+<rect width="780" height="440" fill="#ffffff"/>
+<text x="390" y="28" text-anchor="middle" font-size="18" font-weight="bold">Покази ультразвукового датчика під час руху до стіни (швидкість 30 %)</text>
+<line x1="70" y1="370" x2="740" y2="370" stroke="#dddddd"/>
+<text x="62" y="374" text-anchor="end" font-size="12">0</text>
+<line x1="70" y1="290" x2="740" y2="290" stroke="#dddddd"/>
+<text x="62" y="294" text-anchor="end" font-size="12">50</text>
+<line x1="70" y1="210" x2="740" y2="210" stroke="#dddddd"/>
+<text x="62" y="214" text-anchor="end" font-size="12">100</text>
+<line x1="70" y1="130" x2="740" y2="130" stroke="#dddddd"/>
+<text x="62" y="134" text-anchor="end" font-size="12">150</text>
+<line x1="70" y1="50" x2="740" y2="50" stroke="#dddddd"/>
+<text x="62" y="54" text-anchor="end" font-size="12">200</text>
+<line x1="70" y1="370" x2="70" y2="375" stroke="#000"/>
+<text x="70" y="390" text-anchor="middle" font-size="12">1</text>
+<line x1="181.66666666666669" y1="370" x2="181.66666666666669" y2="375" stroke="#000"/>
+<text x="181.66666666666669" y="390" text-anchor="middle" font-size="12">6</text>
+<line x1="293.33333333333337" y1="370" x2="293.33333333333337" y2="375" stroke="#000"/>
+<text x="293.33333333333337" y="390" text-anchor="middle" font-size="12">11</text>
+<line x1="405" y1="370" x2="405" y2="375" stroke="#000"/>
+<text x="405" y="390" text-anchor="middle" font-size="12">16</text>
+<line x1="516.6666666666667" y1="370" x2="516.6666666666667" y2="375" stroke="#000"/>
+<text x="516.6666666666667" y="390" text-anchor="middle" font-size="12">21</text>
+<line x1="628.3333333333334" y1="370" x2="628.3333333333334" y2="375" stroke="#000"/>
+<text x="628.3333333333334" y="390" text-anchor="middle" font-size="12">26</text>
+<line x1="740" y1="370" x2="740" y2="375" stroke="#000"/>
+<text x="740" y="390" text-anchor="middle" font-size="12">31</text>
+<line x1="70" y1="370" x2="740" y2="370" stroke="#000"/>
+<line x1="70" y1="50" x2="70" y2="370" stroke="#000"/>
+<text x="405" y="415" text-anchor="middle" font-size="14">номер показу (через ≈ 0,4 с)</text>
+<text transform="translate(20 210) rotate(-90)" text-anchor="middle" font-size="14">відстань до стіни, см</text>
+<line x1="70" y1="350.8" x2="740" y2="350.8" stroke="#d62828" stroke-dasharray="6 4"/>
+<text x="78" y="344.8" text-anchor="start" font-size="13" fill="#d62828">поріг 12 см</text>
+<polyline fill="none" stroke="#1d4ed8" stroke-width="2.5" points="70.0,64.7 92.3,73.4 114.7,83.4 137.0,93.4 159.3,103.3 181.7,113.4 204.0,123.3 226.3,133.2 248.7,143.3 271.0,153.2 293.3,163.1 315.7,173.2 338.0,183.1 360.3,193.4 382.7,203.3 405.0,213.4 427.3,223.3 449.7,233.4 472.0,243.3 494.3,253.2 516.7,263.3 539.0,273.2 561.3,283.1 583.7,293.2 606.0,303.1 628.3,313.2 650.7,323.1 673.0,333.4 695.3,343.3 717.7,353.2 740.0,363.3"/>
+<circle cx="70.0" cy="64.7" r="3.5" fill="#1d4ed8"/>
+<circle cx="92.3" cy="73.4" r="3.5" fill="#1d4ed8"/>
+<circle cx="114.7" cy="83.4" r="3.5" fill="#1d4ed8"/>
+<circle cx="137.0" cy="93.4" r="3.5" fill="#1d4ed8"/>
+<circle cx="159.3" cy="103.3" r="3.5" fill="#1d4ed8"/>
+<circle cx="181.7" cy="113.4" r="3.5" fill="#1d4ed8"/>
+<circle cx="204.0" cy="123.3" r="3.5" fill="#1d4ed8"/>
+<circle cx="226.3" cy="133.2" r="3.5" fill="#1d4ed8"/>
+<circle cx="248.7" cy="143.3" r="3.5" fill="#1d4ed8"/>
+<circle cx="271.0" cy="153.2" r="3.5" fill="#1d4ed8"/>
+<circle cx="293.3" cy="163.1" r="3.5" fill="#1d4ed8"/>
+<circle cx="315.7" cy="173.2" r="3.5" fill="#1d4ed8"/>
+<circle cx="338.0" cy="183.1" r="3.5" fill="#1d4ed8"/>
+<circle cx="360.3" cy="193.4" r="3.5" fill="#1d4ed8"/>
+<circle cx="382.7" cy="203.3" r="3.5" fill="#1d4ed8"/>
+<circle cx="405.0" cy="213.4" r="3.5" fill="#1d4ed8"/>
+<circle cx="427.3" cy="223.3" r="3.5" fill="#1d4ed8"/>
+<circle cx="449.7" cy="233.4" r="3.5" fill="#1d4ed8"/>
+<circle cx="472.0" cy="243.3" r="3.5" fill="#1d4ed8"/>
+<circle cx="494.3" cy="253.2" r="3.5" fill="#1d4ed8"/>
+<circle cx="516.7" cy="263.3" r="3.5" fill="#1d4ed8"/>
+<circle cx="539.0" cy="273.2" r="3.5" fill="#1d4ed8"/>
+<circle cx="561.3" cy="283.1" r="3.5" fill="#1d4ed8"/>
+<circle cx="583.7" cy="293.2" r="3.5" fill="#1d4ed8"/>
+<circle cx="606.0" cy="303.1" r="3.5" fill="#1d4ed8"/>
+<circle cx="628.3" cy="313.2" r="3.5" fill="#1d4ed8"/>
+<circle cx="650.7" cy="323.1" r="3.5" fill="#1d4ed8"/>
+<circle cx="673.0" cy="333.4" r="3.5" fill="#1d4ed8"/>
+<circle cx="695.3" cy="343.3" r="3.5" fill="#1d4ed8"/>
+<circle cx="717.7" cy="353.2" r="3.5" fill="#1d4ed8"/>
+<circle cx="740.0" cy="363.3" r="3.5" fill="#1d4ed8"/>
+</svg>
