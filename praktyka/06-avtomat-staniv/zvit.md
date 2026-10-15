@@ -73,3 +73,7 @@ pidhid -> gotovo
 ## RoboMind Basics 1
 
 Пройдено.
+
+## RoboMind Basics 2
+
+Пройдено: усі 7 розділів курсу (від «More tracking and tracing» до «Repairing roads»).

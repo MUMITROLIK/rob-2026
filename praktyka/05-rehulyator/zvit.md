@@ -55,3 +55,7 @@
 ## Висновок
 
 П-регулятор з Kp = 1,0 проїхав трасу за 21,8 с проти 85,4 с у реле — у 3,9 раза швидше; межа стійкості Kp ≈ 2,4.
+
+## RoboMind Basics 2
+
+Курс пройдено повністю: 7 розділів (More tracking and tracing, Searching in mazes, A secret language, Drawing portraits, Reading barcodes, Vacuum cleaning, Repairing roads). Програма на фінальному рівні («Repair a whole square!») — випадковий пошук маяка й ями з `flipCoin`, 10 ям залатано.
