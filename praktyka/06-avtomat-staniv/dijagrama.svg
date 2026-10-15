@@ -1,33 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" font-family="Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Arial, sans-serif">
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker></defs>
-<rect width="1000" height="520" fill="#fff"/>
-<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="bold">Діаграма станів: знайти обʼєкт і зупинитись біля нього</text>
+<rect width="1000" height="600" fill="#fff"/>
+<text x="500" y="32" text-anchor="middle" font-size="22" font-weight="bold">Діаграма станів: знайти червоний маяк і зупинитись біля нього</text>
 <g stroke="#222" stroke-width="2" fill="#eef4ff">
-<rect x="60" y="150" width="190" height="80" rx="8"/>
-<rect x="400" y="150" width="190" height="80" rx="8"/>
-<rect x="740" y="150" width="190" height="80" rx="8"/>
-<rect x="740" y="340" width="190" height="80" rx="8" fill="#e6f7e6"/>
+<rect x="40" y="170" width="190" height="80" rx="8"/>
+<rect x="400" y="170" width="190" height="80" rx="8"/>
+<rect x="760" y="170" width="190" height="80" rx="8"/>
+<rect x="760" y="380" width="190" height="80" rx="8" fill="#e6f7e6"/>
+<rect x="40" y="380" width="190" height="80" rx="8" fill="#fff4e5"/>
 </g>
 <g font-size="20" text-anchor="middle" font-weight="bold">
-<text x="155" y="184">poshuk</text><text x="495" y="184">navedennya</text><text x="835" y="184">pidhid</text><text x="835" y="374">gotovo</text></g>
+<text x="135" y="204">poshuk</text><text x="495" y="204">navedennya</text><text x="855" y="204">pidhid</text><text x="855" y="414">gotovo</text><text x="135" y="414">pereizd</text></g>
 <g font-size="14" text-anchor="middle" fill="#333">
-<text x="155" y="208">крутиться на місці</text><text x="495" y="208">центрує на обʼєкті</text><text x="835" y="208">їде вперед</text><text x="835" y="398">стоїть, кінець</text></g>
+<text x="135" y="228">крутиться, шукає червоне</text><text x="495" y="228">ставить пляму в центр кадру</text><text x="855" y="228">їде до червоного</text><text x="855" y="438">стоїть, кінець</text><text x="135" y="438">обʼїзд, інша точка огляду</text></g>
 <g stroke="#222" stroke-width="2" fill="none" marker-end="url(#a)">
-<path d="M10,190 L58,190"/>
-<path d="M250,190 L398,190"/>
-<path d="M590,190 L738,190"/>
-<path d="M835,230 L835,338"/>
-<path d="M760,150 C700,80 300,80 200,148"/>
+<path d="M0,210 L38,210"/>
+<path d="M230,200 L398,200"/>
+<path d="M590,200 L758,200"/>
+<path d="M855,250 L855,378"/>
+<path d="M135,250 L135,378"/>
+<path d="M760,240 C700,330 300,350 232,415"/>
+<path d="M440,170 C400,110 200,110 150,168"/>
+<path d="M820,170 C760,70 250,70 190,168"/>
 </g>
-<g font-size="14" text-anchor="middle" fill="#111">
-<text x="324" y="166">d &lt; 100 см</text><text x="324" y="182" font-size="12">(бачу обʼєкт)</text>
-<text x="664" y="146" font-size="12">пройшов обʼєкт і</text>
-<text x="664" y="162" font-size="12">повернувся на</text><text x="664" y="178" font-size="12">його середину</text>
-<text x="880" y="290">d &lt; 12 см</text>
-<text x="480" y="88">d &gt; 130 см (обʼєкт загубили)</text>
-<text x="30" y="178">старт</text>
+<g font-size="13" text-anchor="middle" fill="#111">
+<text x="314" y="190">бачу червоне</text>
+<text x="674" y="190">пляма в центрі (cx ≈ 50)</text>
+<text x="905" y="318" text-anchor="end">d &lt; 12 см і червоного</text>
+<text x="905" y="334" text-anchor="end">багато (≥ 400 пікс.)</text>
+<text x="40" y="305" text-anchor="start" transform="rotate(0)">повний оберт 360°,</text>
+<text x="40" y="321" text-anchor="start">червоного не видно</text>
+<text x="300" y="126">navedennya → poshuk: червоне зникло (> 8 кадрів)</text>
+<text x="600" y="72">pidhid → poshuk: червоне зникло (> 8 кадрів)</text>
+<text x="640" y="342" text-anchor="middle">d &lt; 22 см, червоного мало</text>
+<text x="640" y="358" text-anchor="middle">(= не червона перешкода)</text>
+<text x="12" y="478" text-anchor="start" font-size="12">pereizd → poshuk: (пунктир) повернув на 90° і проїхав вперед</text>
 </g>
-<rect x="60" y="440" width="870" height="56" rx="8" fill="#fff4e5" stroke="#c77700" stroke-width="2"/>
-<text x="495" y="464" text-anchor="middle" font-size="15">Таймаут: у будь-якому стані, крім gotovo, понад 25 с без виходу → «таймаут у стані …», мотори вимкнено, програма завершується.</text>
-<text x="495" y="484" text-anchor="middle" font-size="15">Усі зміни стану — лише через perekhid(), яка друкує «старий -&gt; новий».</text>
+<g stroke="#222" stroke-width="2" fill="none" marker-end="url(#a)"><path d="M60,380 C20,300 20,260 38,250" stroke-dasharray="4 3"/></g>
+<rect x="20" y="492" width="960" height="96" rx="8" fill="#fff4e5" stroke="#c77700" stroke-width="2"/>
+<text x="500" y="520" text-anchor="middle" font-size="15">Таймаут: у будь-якому стані, крім gotovo, понад 30 с без виходу → «таймаут у стані …», мотори вимкнено, програма завершується.</text>
+<text x="500" y="544" text-anchor="middle" font-size="15">Усі зміни стану — лише через perekhid(), яка друкує «старий -&gt; новий».</text>
+<text x="500" y="566" text-anchor="middle" font-size="15">Колір визначає камера (HSV), відстань — ультразвук із шумом ±3 см.</text>
 </svg>
