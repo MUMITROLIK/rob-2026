@@ -21,24 +21,28 @@
 <path d="M135,250 L135,378"/>
 <path d="M760,240 C700,330 300,350 232,415"/>
 <path d="M440,170 C400,110 200,110 150,168"/>
+<path d="M232,445 C380,500 500,380 495,252"/>
 <path d="M820,170 C760,70 250,70 190,168"/>
 </g>
 <g font-size="13" text-anchor="middle" fill="#111">
 <text x="314" y="190">бачу червоне</text>
 <text x="674" y="190">пляма в центрі (cx ≈ 50)</text>
 <text x="905" y="318" text-anchor="end">d &lt; 12 см і червоного</text>
-<text x="905" y="334" text-anchor="end">багато (≥ 400 пікс.)</text>
+<text x="905" y="334" text-anchor="end">багато (≥ 250 пікс.)</text>
 <text x="40" y="305" text-anchor="start" transform="rotate(0)">повний оберт 360°,</text>
 <text x="40" y="321" text-anchor="start">червоного не видно</text>
-<text x="300" y="126">navedennya → poshuk: червоне зникло (> 8 кадрів)</text>
-<text x="600" y="72">pidhid → poshuk: червоне зникло (> 8 кадрів)</text>
-<text x="640" y="342" text-anchor="middle">d &lt; 22 см, червоного мало</text>
+<text x="40" y="337" text-anchor="start">(довертаю туди, де найбільше місця)</text>
+<text x="300" y="126">navedennya → poshuk: червоне зникло (> 25 кадрів)</text>
+<text x="600" y="72">pidhid → poshuk: червоне зникло (> 150 кадрів ≈ 15 с)</text>
+<text x="640" y="342" text-anchor="middle">d &lt; 22 см, червоного &lt; 150 пікс.</text>
 <text x="640" y="358" text-anchor="middle">(= не червона перешкода)</text>
-<text x="12" y="478" text-anchor="start" font-size="12">pereizd → poshuk: (пунктир) повернув на 90° і проїхав вперед</text>
+<text x="12" y="478" text-anchor="start" font-size="12">pereizd → poshuk: (пунктир) довернув і проїхав вперед (до 12 с або перешкода за 45 см)</text>
+<text x="420" y="440" text-anchor="middle">pereizd → navedennya: бачу червоне</text>
+<text x="420" y="456" text-anchor="middle">(після ≥ 5 с переїзду)</text>
 </g>
 <g stroke="#222" stroke-width="2" fill="none" marker-end="url(#a)"><path d="M60,380 C20,300 20,260 38,250" stroke-dasharray="4 3"/></g>
 <rect x="20" y="492" width="960" height="96" rx="8" fill="#fff4e5" stroke="#c77700" stroke-width="2"/>
 <text x="500" y="520" text-anchor="middle" font-size="15">Таймаут: у будь-якому стані, крім gotovo, понад 30 с без виходу → «таймаут у стані …», мотори вимкнено, програма завершується.</text>
 <text x="500" y="544" text-anchor="middle" font-size="15">Усі зміни стану — лише через perekhid(), яка друкує «старий -&gt; новий».</text>
-<text x="500" y="566" text-anchor="middle" font-size="15">Колір визначає камера (HSV), відстань — ультразвук із шумом ±3 см.</text>
+<text x="500" y="566" text-anchor="middle" font-size="15">Колір визначає камера (HSV), відстань — ультразвук. GPS не використовується: стартова позиція невідома (ускладнення № 4).</text>
 </svg>

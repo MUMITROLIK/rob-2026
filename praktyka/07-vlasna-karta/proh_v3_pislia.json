@@ -1,0 +1,212 @@
+[
+ {
+  "n": 1,
+  "start": [
+   -124,
+   -4,
+   98
+  ],
+  "trans": 3,
+  "seq": "poshuk>navedennya navedennya>pidhid pidhid>gotovo",
+  "timeout": false,
+  "state": "gotovo",
+  "t": 28.1,
+  "end": [
+   101.9,
+   -137.1
+  ],
+  "dist": 7.4,
+  "toRed": 18.385320231097417,
+  "toBlue": 64.40512401975482,
+  "clr": 13.674063039199432
+ },
+ {
+  "n": 2,
+  "start": [
+   -144,
+   -85,
+   111
+  ],
+  "trans": 5,
+  "seq": "poshuk>pereizd pereizd>poshuk poshuk>navedennya navedennya>pidhid pidhid>gotovo",
+  "timeout": false,
+  "state": "gotovo",
+  "t": 49.1,
+  "end": [
+   98.8,
+   -134.2
+  ],
+  "dist": 11.5,
+  "toRed": 22.629184695874493,
+  "toBlue": 68.05938583325594,
+  "clr": 11.046266337545918
+ },
+ {
+  "n": 3,
+  "start": [
+   -103,
+   147,
+   182
+  ],
+  "trans": 11,
+  "seq": "poshuk>pereizd pereizd>poshuk poshuk>pereizd pereizd>poshuk poshuk>pereizd pereizd>poshuk poshuk>pereizd pereizd>poshuk poshuk>navedennya navedennya>pidhid pidhid>pereizd",
+  "timeout": false,
+  "state": "pereizd",
+  "t": 90,
+  "end": [
+   36.2,
+   -76.2
+  ],
+  "dist": -1,
+  "toRed": 107.9624008625225,
+  "toBlue": 148.44487192220552,
+  "clr": 16.726326554267683
+ },
+ {
+  "n": 4,
+  "start": [
+   -46,
+   94,
+   283
+  ],
+  "trans": 11,
+  "seq": "poshuk>pereizd pereizd>poshuk poshuk>pereizd pereizd>poshuk poshuk>navedennya navedennya>pidhid pidhid>pereizd pereizd>poshuk poshuk>navedennya navedennya>pidhid pidhid>gotovo",
+  "timeout": false,
+  "state": "gotovo",
+  "t": 89.7,
+  "end": [
+   97,
+   -136.8
+  ],
+  "dist": 11.4,
+  "toRed": 22.321290285285922,
+  "toBlue": 69.26932943229636,
+  "clr": 21.9
+ },
+ {
+  "n": 5,
+  "start": [
+   19,
+   -15,
+   140
+  ],
+  "trans": 5,
+  "seq": "poshuk>pereizd pereizd>poshuk poshuk>navedennya navedennya>pidhid pidhid>gotovo",
+  "timeout": false,
+  "state": "gotovo",
+  "t": 47.3,
+  "end": [
+   99.2,
+   -134.5
+  ],
+  "dist": 11.1,
+  "toRed": 22.13345883498555,
+  "toBlue": 67.6009615316232,
+  "clr": 11.014535850411486
+ },
+ {
+  "n": 6,
+  "start": [
+   149,
+   42,
+   146
+  ],
+  "trans": 14,
+  "seq": "poshuk>navedennya navedennya>pidhid pidhid>pereizd pereizd>poshuk poshuk>pereizd pereizd>poshuk poshuk>pereizd pereizd>poshuk poshuk>navedennya navedennya>pidhid pidhid>pereizd pereizd>poshuk poshuk>navedennya navedennya>pidhid",
+  "timeout": false,
+  "state": "pidhid",
+  "t": 90.1,
+  "end": [
+   -8.8,
+   -64.9
+  ],
+  "dist": -1,
+  "toRed": 150.2279933967035,
+  "toBlue": 193.5160200086804,
+  "clr": 22.1
+ },
+ {
+  "n": 7,
+  "start": [
+   5,
+   -104,
+   148
+  ],
+  "trans": 3,
+  "seq": "poshuk>navedennya navedennya>pidhid pidhid>gotovo",
+  "timeout": false,
+  "state": "gotovo",
+  "t": 20.2,
+  "end": [
+   95.3,
+   -138.6
+  ],
+  "dist": 11.8,
+  "toRed": 22.760711763914593,
+  "toBlue": 70.6261283095711,
+  "clr": 30.45997373603595
+ },
+ {
+  "n": 8,
+  "start": [
+   129,
+   160,
+   316
+  ],
+  "trans": 3,
+  "seq": "poshuk>navedennya navedennya>pidhid pidhid>gotovo",
+  "timeout": false,
+  "state": "gotovo",
+  "t": 29.4,
+  "end": [
+   116.2,
+   -129.4
+  ],
+  "dist": 11.4,
+  "toRed": 20.634921855921817,
+  "toBlue": 52.969802718152536,
+  "clr": 10.700000000000003
+ },
+ {
+  "n": 9,
+  "start": [
+   30,
+   126,
+   45
+  ],
+  "trans": 7,
+  "seq": "poshuk>pereizd pereizd>poshuk poshuk>pereizd pereizd>poshuk poshuk>navedennya navedennya>pidhid pidhid>gotovo",
+  "timeout": false,
+  "state": "gotovo",
+  "t": 67.9,
+  "end": [
+   97.6,
+   -135.5
+  ],
+  "dist": 12,
+  "toRed": 22.649724060129305,
+  "toBlue": 68.94207713726068,
+  "clr": 17.640861656959956
+ },
+ {
+  "n": 10,
+  "start": [
+   -48,
+   17,
+   259
+  ],
+  "trans": 7,
+  "seq": "poshuk>navedennya navedennya>pidhid pidhid>pereizd pereizd>poshuk poshuk>navedennya navedennya>pidhid pidhid>gotovo",
+  "timeout": false,
+  "state": "gotovo",
+  "t": 57.2,
+  "end": [
+   97.5,
+   -135.7
+  ],
+  "dist": 11.4,
+  "toRed": 22.599557517792253,
+  "toBlue": 68.998115916306,
+  "clr": 18.257053431482305
+ }
+]
